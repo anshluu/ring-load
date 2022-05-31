@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html>
   <head>
-    <title>cyberdev's ring load</title>
+    <title>A ring shaped loader with only CSS | one-html-page-challenge</title>
     <style>
     *, *:before, *:after {
     box-sizing: border-box;
@@ -19,24 +20,23 @@
     radial-gradient(#101010, black);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    color: green;
+    color: white;
     }
     .ring {
     position: absolute;
-    color: green;
     left: 50%;
     top: 50%;
     width: 3.5rem;
     height: 3.5rem;
-    border: 5px solid green;
+    border: 5px solid white;
     border-radius: 50%;
     animation: loader 1.5s infinite;
     animation-timing-function: cubic-bezier(1,0,0,1);
     animation-direction: alternate;
     box-shadow:
     0 0 3px grey inset,
-    0 0 5px green,
-    0 0 3px green;
+    0 0 5px white,
+    0 0 3px grey;
     }
     .ring:nth-child(2) {
     animation-delay: 250ms;
